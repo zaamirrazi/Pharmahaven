@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Order Page</title>
+    <link rel="stylesheet" href="pharmahaven.css">
+</head>
+<body>
+    <header>
+        <h1>PharmaHaven</h1>
+        <p>Health on Time, Every Time.</p>
+    </header>
+
+    <nav class="category-nav">
+        <h3 class="category-title">Browse by Category</h3>
+        <ul>
+            <li><a href="#analgesics">Analgesics</a></li>
+            <li><a href="#antibiotics">Antibiotics</a></li>
+            <li><a href="#antidepressants">Antidepressants</a></li>
+            <li><a href="#antihistamines">Antihistamines</a></li>
+            <li><a href="#antihypertensives">Antihypertensives</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Analgesics Section -->
+        <section id="analgesics">
+            <h2>Analgesics</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="media/aspirin.png" alt="Aspirin">
+                    <div class="product-info">
+                        <p>Aspirin</p>
+                        <input type="number" id="analgesic1" name="Aspirin" min="0" value="1">
+                        <button class="add-to-cart" data-product="Aspirin">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/codeine.png" alt="Codeine">
+                    <div class="product-info">
+                        <p>Codeine</p>
+                        <input type="number" id="analgesic2" name="Codeine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Codeine">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/morphine.jpg" alt="Morphine">
+                    <div class="product-info">
+                        <p>Morphine</p>
+                        <input type="number" id="analgesic3" name="Morphine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Morphine">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/ketoprofen.jpg" alt="Ketoprofen">
+                    <div class="product-info">
+                        <p>Ketoprofen</p>
+                        <input type="number" id="analgesic4" name="Ketoprofen" min="0" value="1">
+                        <button class="add-to-cart" data-product="Ketoprofen">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/tramadol.png" alt="Tramadol">
+                    <div class="product-info">
+                        <p>Tramadol</p>
+                        <input type="number" id="analgesic5" name="Tramadol" min="0" value="1">
+                        <button class="add-to-cart" data-product="Tramadol">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/naproxen.png" alt="Naproxen">
+                    <div class="product-info">
+                        <p>Naproxen</p>
+                        <input type="number" id="analgesic6" name="Naproxen" min="0" value="1">
+                        <button class="add-to-cart" data-product="Naproxen">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Antibiotics Section -->
+        <section id="antibiotics">
+            <h2>Antibiotics</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="media/cephalosporins.png" alt="Cephalosporin">
+                    <div class="product-info">
+                        <p>Cephalosporin</p>
+                        <input type="number" id="antibiotic1" name="Cephalosporin" min="0" value="1">
+                        <button class="add-to-cart" data-product="Cephalosporin">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/aminoglycosides.png" alt="Aminoglycoside">
+                    <div class="product-info">
+                        <p>Aminoglycoside</p>
+                        <input type="number" id="antibiotic2" name="Aminoglycoside" min="0" value="1">
+                        <button class="add-to-cart" data-product="Aminoglycoside">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Penicillin.png" alt="Penicillin">
+                    <div class="product-info">
+                        <p>Penicillin</p>
+                        <input type="number" id="antibiotic3" name="Penicillin" min="0" value="1">
+                        <button class="add-to-cart" data-product="Penicillin">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Nitrofurantoin.png" alt="Nitrofurantoin">
+                    <div class="product-info">
+                        <p>Nitrofurantoin</p>
+                        <input type="number" id="antibiotic4" name="Nitrofurantoin" min="0" value="1">
+                        <button class="add-to-cart" data-product="Nitrofurantoin">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Macrolide.avif" alt="Macrolide">
+                    <div class="product-info">
+                        <p>Macrolide</p>
+                        <input type="number" id="antibiotic5" name="Macrolide" min="0" value="1">
+                        <button class="add-to-cart" data-product="Macrolide">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Tetracycline.png" alt="Tetracycline">
+                    <div class="product-info">
+                        <p>Tetracycline</p>
+                        <input type="number" id="antibiotic6" name="Tetracycline" min="0" value="1">
+                        <button class="add-to-cart" data-product="Tetracycline">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Antidepressants Section -->
+        <section id="antidepressants">
+            <h2>Antidepressants</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="media/Citalopram.png" alt="Citalopram">
+                    <div class="product-info">
+                        <p>Citalopram</p>
+                        <input type="number" id="antibiotic1" name="Citalopram" min="0" value="1">
+                        <button class="add-to-cart" data-product="Citalopram">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Escitalopram.png" alt="Escitalopram">
+                    <div class="product-info">
+                        <p>Escitalopram</p>
+                        <input type="number" id="antibiotic2" name="Escitalopram" min="0" value="1">
+                        <button class="add-to-cart" data-product="Escitalopram">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                        <img src="media/Fluoxetine.png" alt="Fluoxetine">
+                        <div class="product-info">
+                            <p>Fluoxetine</p>
+                            <input type="number" id="antibiotic1" name="Fluoxetine" min="0" value="1">
+                            <button class="add-to-cart" data-product="Fluoxetine">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="product-card">
+                        <img src="media/Trazodone.png" alt="Trazodone">
+                        <div class="product-info">
+                            <p>Trazodone</p>
+                            <input type="number" id="antibiotic2" name="Trazodone" min="0" value="1">
+                            <button class="add-to-cart" data-product="Trazodone">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Bupropion.png" alt="Bupropion">
+                    <div class="product-info">
+                        <p>Bupropion</p>
+                        <input type="number" id="antibiotic1" name="Bupropion" min="0" value="1">
+                        <button class="add-to-cart" data-product="Bupropion">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Mirtazapine.png" alt="Mirtazapine">
+                    <div class="product-info">
+                        <p>Mirtazapine</p>
+                        <input type="number" id="antibiotic2" name="Mirtazapine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Mirtazapine">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Antihistamines Section -->
+         <section id="antihistamines">
+            <h2>Antihistamines</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="media/Diphenhydramine.png" alt="Diphenhydramine">
+                    <div class="product-info">
+                        <p>Diphenhydramine</p>
+                        <input type="number" id="analgesic1" name="Diphenhydramine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Diphenhydramine">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Ketotifen.png" alt="Ketotifen">
+                    <div class="product-info">
+                        <p>Ketotifen</p>
+                        <input type="number" id="analgesic2" name="Ketotifen" min="0" value="1">
+                        <button class="add-to-cart" data-product="Ketotifen">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Methdilazine.avif" alt="Methdilazine">
+                    <div class="product-info">
+                        <p>Methdilazine</p>
+                        <input type="number" id="analgesic3" name="Methdilazine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Methdilazine">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Hydroxyzine.png" alt="Hydroxyzine">
+                    <div class="product-info">
+                        <p>Hydroxyzine</p>
+                        <input type="number" id="analgesic4" name="Hydroxyzine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Hydroxyzine">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Antihypertensives  Section -->
+         <section id="antihypertensives">
+            <h2>Antihypertensives</h2>
+            <div class="product-container">
+                <div class="product-card">
+                    <img src="media/Diuretics.jpg" alt="Diuretics">
+                    <div class="product-info">
+                        <p>Diuretics</p>
+                        <input type="number" id="analgesic1" name="Diuretics" min="0" value="1">
+                        <button class="add-to-cart" data-product="Diuretics">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Clonidine.jpg" alt="Clonidine">
+                    <div class="product-info">
+                        <p>Clonidine</p>
+                        <input type="number" id="analgesic2" name="Clonidine" min="0" value="1">
+                        <button class="add-to-cart" data-product="Clonidine">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Prazosin.png" alt="Prazosin">
+                    <div class="product-info">
+                        <p>Prazosin</p>
+                        <input type="number" id="analgesic3" name="Prazosin" min="0" value="1">
+                        <button class="add-to-cart" data-product="Prazosin">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Chlortalidone.jpg" alt="Chlortalidone">
+                    <div class="product-info">
+                        <p>Chlortalidone</p>
+                        <input type="number" id="analgesic4" name="Chlortalidone" min="0" value="1">
+                        <button class="add-to-cart" data-product="Chlortalidone">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Indapamide.png" alt="Indapamide">
+                    <div class="product-info">
+                        <p>Indapamide</p>
+                        <input type="number" id="analgesic5" name="Indapamide" min="0" value="1">
+                        <button class="add-to-cart" data-product="Indapamide">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="media/Lisinopril.png" alt="Lisinopril">
+                    <div class="product-info">
+                        <p>Lisinopril</p>
+                        <input type="number" id="analgesic6" name="Lisinopril" min="0" value="1">
+                        <button class="add-to-cart" data-product="Lisinopril">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Summary -->
+        <section>
+            <h2>Order Summary</h2>
+            <table id="orderTable">
+                <thead>
+                    <tr>
+                        <th>Medicine</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td id="totalPrice">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="action-buttons">
+                <button id="saveFavorite">Save as Favorite</button>
+                <button id="applyFavorite">Apply Favorite</button>
+                <button id="clearCart">Clear Cart</button>
+                <button id="buyNow">Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PharmaHaven. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
